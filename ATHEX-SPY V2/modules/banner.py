@@ -1,6 +1,6 @@
 from modules.color import Color as C
 
-version = "v3.0 Advanced"
+version = "v2 Advanced"
 
 banner_main = f"""
 {C.RED}
@@ -10,7 +10,7 @@ banner_main = f"""
 {C.RED}  ██╔══██║   ██║   ██╔══██║██╔══╝   ██╔██╗   ╚════██║██╔═══╝   ╚██╔╝     
 {C.RED}  ██║  ██║   ██║   ██║  ██║███████╗██╔╝ ██╗  ███████║██║        ██║      
 {C.RED}  ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝  ╚══════╝╚═╝        ╚═╝      
-{C.RED}                         ADB TOOLKIT VERSION 2.0                               {C.RESET}
+{C.RED}                         ADB TOOLKIT VERSION 2                               {C.RESET}
         {C.YELLOW}{version}{C.RESET}        {C.WHITE}Created by ATHEX | +92 3490916663{C.RESET}
 """
 
