@@ -1,6 +1,6 @@
 from modules import color
 
-version = "v1.61"
+version = "v1"
 
 menu1 = f"""
 
