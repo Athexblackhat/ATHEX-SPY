@@ -79,7 +79,7 @@ banner2 = f"""
                                                                                                
 
             {color.RED}{version}{color.WHITE}            {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 """
 
@@ -94,7 +94,7 @@ banner3 = f"""
 //      //     //     //      // //////// //     //                   ////////  //          //    
 
             {color.RED}{version}{color.WHITE}             {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 """
 
@@ -109,7 +109,7 @@ banner4 = f"""
                                                                              
 
         {color.RED}{version}{color.WHITE}                             {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 """
 banner5 = f"""
@@ -122,7 +122,7 @@ banner5 = f"""
                                                                                                                                                    
 
         {color.RED}{version}{color.WHITE}        {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 """
 
@@ -139,7 +139,7 @@ banner6 = f"""
                                                                                                                      
                                                                                                                      
            {color.RED}{version}{color.WHITE}               {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 
 """
@@ -157,7 +157,7 @@ banner10 = f"""
                                                                                                                              
 
             {color.RED}{version}{color.WHITE}                                {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 
 """
@@ -181,7 +181,7 @@ SSS    S*S       S*S       SSS    S*S    YSSP  S*S S*S              YSS'    S*S 
 
 
             {color.RED}{version}{color.WHITE}                            {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 
 """
@@ -200,7 +200,7 @@ banner12 = f"""
 .8'       `8. `88888. 8 8888       8 8888        8 8 888888888888 .8'      `8.`8888.                      `Y8888P ,88P' 8 8888               8 8888      
 
             {color.RED}{version}{color.WHITE}                            {color.WHITE} CREATED BY ATHEX
-            WHATSAPP NUMBER = +92 3475549695
+            WHATSAPP NUMBER = +92 3490916663
             INSTAGRAM = itx_athex86
 
 """
