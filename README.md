@@ -1,6 +1,6 @@
 <a href="https://github.com/Athexhacker/ATHEX-SPY"><img src="logo.png" alt="0" border="0" /></a> 
 
-![Geo-Phone](https://img.shields.io/badge/version-v[1.6]-blue.svg)
+![Geo-Phone](https://img.shields.io/badge/version-v[2.0]-blue.svg)
 
 <div align="center">
   
@@ -27,6 +27,142 @@ The goal of this project is to make penetration testing and vulnerability assess
 
 > [!TIP]
 > __ATHEX-SPY__ can also be used as a complete ADB Toolkit to perform various operations on Android devices over Wi-Fi as well as USB. 
+
+
+
+
+## 📌 Overview
+
+**ATHEX-SPY v2.0 Advanced** is a comprehensive Android exploitation, penetration testing, and forensic toolkit with **70+ powerful features**. This tool automates everything from basic ADB operations to advanced post-exploitation techniques including:
+
+- 🔓 One-click Meterpreter session generation
+- 🎯 Live keylogging via `getevent`
+- 📍 GPS location tracking
+- 📷 Remote camera capture
+- 🎤 Microphone & device audio recording/streaming
+- 🔐 WiFi password extraction
+- 🌐 Network traffic capture with tcpdump
+- 💉 Frida dynamic instrumentation
+- 📱 Full device backup and system dump
+- 🛡️ Lock screen bypass attempts
+- 🔍 Vulnerability scanning for exported components
+
+The goal is to provide security researchers and penetration testers with a complete toolkit for Android device assessment.
+
+---
+
+## 🚀 Features (70+ Total)
+
+### 📄 PAGE 1 - Core ADB Operations (1-20)
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 1 | Connect a Device | Connect to device via ADB over TCP/IP |
+| 2 | List Connected Devices | Display all connected ADB devices |
+| 3 | Disconnect All Devices | Disconnect all ADB connections |
+| 4 | Scan Network for Devices | Discover devices on local network using nmap |
+| 5 | Mirror & Control Device | Full screen mirroring with scrcpy |
+| 6 | Take Screenshot | Capture and pull screenshot |
+| 7 | Screen Record | Record screen with custom duration |
+| 8 | Download File/Folder | Pull files from device |
+| 9 | Send File/Folder to Device | Push files to device |
+| 10 | Run an App | Launch app by package name |
+| 11 | Install an APK | Install APK from computer |
+| 12 | Uninstall an App | Remove app by package name |
+| 13 | List Installed Apps | Show all third-party packages |
+| 14 | Access Device Shell | Interactive ADB shell |
+| 15 | Hack Device (Metasploit) | One-click Meterpreter payload generation |
+| 16 | List Files/Folders | Browse /sdcard contents |
+| 17 | Send SMS | Send SMS via service call (experimental) |
+| 18 | Copy WhatsApp Data | Extract WhatsApp media and databases |
+| 19 | Copy All Screenshots | Bulk screenshot extraction |
+| 20 | Copy All Camera Photos | Bulk photo extraction |
+
+### 📄 PAGE 2 - Stealth & Information Gathering (21-40)
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 21 | Anonymous Screenshot | Screenshot + auto-delete from device |
+| 22 | Anonymous Screen Record | Recording + auto-delete from device |
+| 23 | Open a Link on Device | Launch URL in browser |
+| 24 | Display a Photo on Device | Push and display image |
+| 25 | Play an Audio on Device | Push and play audio file |
+| 26 | Play a Video on Device | Push and play video file |
+| 27 | Get Device Information | Model, OS, chipset, build details |
+| 28 | Get Battery Information | Battery level, temp, health status |
+| 29 | Restart Device | Normal system reboot |
+| 30 | Advanced Reboot Options | Recovery, Bootloader, Fastboot |
+| 31 | Unlock Device | Swipe + PIN/password input |
+| 32 | Lock Device | Turn off screen |
+| 33 | Dump All SMS | Extract SMS database |
+| 34 | Dump All Contacts | Extract contacts database |
+| 35 | Dump Call Logs | Extract call history |
+| 36 | Extract APK from App | Pull APK from installed package |
+| 37 | Stop ADB Server | Kill ADB daemon |
+| 38 | Power Off Device | Shutdown device |
+| 39 | Use Keycodes | Interactive remote control menu |
+| 40 | Update ATHEX-SPY | Git pull latest version |
+
+### 📄 PAGE 3 - Audio, Surveillance & Tracking (41-50)
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 41 | Record Mic Audio | Save microphone audio to file |
+| 42 | Stream Mic Audio | Live microphone streaming |
+| 43 | Record Device Audio | Capture internal device audio |
+| 44 | Stream Device Audio | Live internal audio streaming |
+| 45 | Mirror with Audio | scrcpy with audio support |
+| 46 | Live Keylogger | Raw input event monitoring (getevent) |
+| 47 | GPS Location Tracker | Extract location from dumpsys |
+| 48 | Camera Snap | Trigger front/back camera |
+| 49 | View Browsing History | Extract Chrome history database |
+| 50 | Extract WiFi Passwords | Pull WifiConfigStore.xml or wpa_supplicant.conf |
+
+### 📄 PAGE 4 - Forensics & Network Analysis (51-60)
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 51 | Full Device Backup | ADB backup (-apk -shared -all -system) |
+| 52 | Network Traffic Capture | tcpdump packet capture |
+| 53 | Bypass Lock Screen | Clear locksettings (requires root) |
+| 54 | Install Burp Certificate | Push cert to system trust store |
+| 55 | Screen Stream via Web | scrcpy V4L2/webcam stream |
+| 56 | Live Logcat Stream | Real-time log monitoring |
+| 57 | Vulnerability Scan | Detect exported activities/services |
+| 58 | Dump System Info | Full dumpsys output |
+| 59 | Open Reverse Shell | Netcat reverse connection |
+| 60 | Check Root Status | Verify su binary access |
+
+### 📄 PAGE 5 - Advanced Exploitation & Post-Exploitation (61-70)
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 61 | Brute Force PIN | 4-digit PIN simulation |
+| 62 | Frida Server Setup | Push and start frida-server |
+| 63 | Inject Frida Script | Load and run Frida JavaScript |
+| 64 | Dump App Memory | Frida-based memory enumeration |
+| 65 | Disable Play Protect | Turn off Google Play verification |
+| 66 | Uninstall System App | Remove system packages (root) |
+| 67 | List Running Processes | ps command output |
+| 68 | Kill Process | Terminate by PID |
+| 69 | Port Forwarding | Local to remote port mapping |
+| 70 | Reboot to EDL Mode | Emergency Download Mode (Qualcomm) |
+
+---
+
+## 📋 Requirements
+
+| Software | Purpose | Installation |
+|----------|---------|--------------|
+| **Python 3.10+** | Runtime environment | [python.org](https://www.python.org/) |
+| **ADB** | Android Debug Bridge | [Platform Tools](https://developer.android.com/studio/releases/platform-tools) |
+| **Metasploit Framework** | Payload generation & handler | [Metasploit](https://www.metasploit.com/) |
+| **scrcpy** | Screen mirroring & audio | [scrcpy](https://github.com/Genymobile/scrcpy) |
+| **nmap** | Network scanning | [nmap.org](https://nmap.org/) |
+| **Frida** (Optional) | Dynamic instrumentation | [frida.re](https://frida.re/) |
+| **tcpdump** (Optional) | Network capture | [tcpdump-android](https://github.com/extremecoders-re/tcpdump-android-builds) |
+
+
 
 
 
@@ -98,6 +234,55 @@ The goal of this project is to make penetration testing and vulnerability assess
 * Stream Microphone Audio
 * Record Device Audio
 * Stream Device Audio
+
+## V2.0 (Current)
+v2 Advanced (Current)
+*✅ 70 total features across 5 interactive pages*
+
+*✅ Live keylogger (getevent monitoring)*
+
+*✅ GPS location tracking*
+
+*✅ WiFi password extraction*
+
+*✅ Camera snap (front/back)*
+
+*✅ Chrome browsing history extraction*
+
+*✅ Full device backup (ADB backup)*
+
+*✅ Network capture with tcpdump*
+
+*✅ Live logcat streaming*
+
+*✅ Vulnerability scanning*
+
+*✅ Frida integration (setup, script injection, memory dump)*
+
+*✅ Reverse shell capability*
+
+*✅ Port forwarding*
+
+*✅ EDL reboot mode*
+
+*✅ PIN brute force simulation*
+
+*✅ Play Protect disable*
+
+*✅ System app uninstallation*
+
+*✅ Process management*
+
+*✅ Burp Suite certificate installation*
+
+*✅ Screen streaming via web*
+
+v1.6 (Previous)
+Initial release with core ADB features
+
+Metasploit integration
+
+Audio recording and streaming
 
 # Requirements  
 * [`python3`](https://www.python.org/) : Python 3.10 or Newer
@@ -202,19 +387,44 @@ adb tcpip 5555
 2. Run __ATHEX-SPY__ and select `Connect a device` and enter the target's `IP Address` to connect over Wi-Fi.
 
 
-# This tool is tested on
+## 🎯 Tested Platforms
 
--  ✅ Ubuntu
--  ✅ Linux Mint
--  ✅ Kali Linux
--  ✅ Fedora
--  ✅ Arch Linux
--  ✅ Parrot Security OS
--  ✅ Windows 11
--  ✅ Windows 10
--  ✅ Termux (Android)
--  ✅ Black Arch
--  ✅ Black Ubuntu
+*✅ Kali Linux -	Fully Supported*
+*✅ Ubuntu 22.04+ -	Fully Supported*
+*✅ Linux Mint -	Fully Supported*
+*✅ Fedora -	Fully Supported*
+*✅ Arch Linux -	Fully Supported*
+*✅ Parrot OS	- Fully Supported*
+*✅ Windows 11	- Supported*
+*✅ Windows 10	- Supported*
+*✅ macOS	- Supported*
+[!NOTE]
+Linux is recommended for full feature compatibility. Some advanced features (audio streaming, Frida, tcpdump) work best on Linux.
+
+🛠️ Advanced Feature Setup
+Frida Dynamic Instrumentation
+bash
+# Install Frida on host
+pip install frida-tools
+
+## Download frida-server for your device architecture
+from:
+
+```
+https://github.com/frida/frida/releases
+
+Rename to 'frida-server' and place in ATHEX-SPY directory
+```
+tcpdump Network Capture
+
+
+## Download tcpdump binary for Android
+from: 
+```
+https://github.com/extremecoders-re/tcpdump-android-builds/releases
+
+Rename to 'tcpdump' and place in ATHEX-SPY directory
+```
 
 > [!NOTE]
 > All the new features are primarily tested on **Linux**, thus **Linux** is recommended for running ATHEX-SPY.
@@ -356,25 +566,26 @@ pkg install nmap
 * Do not use this tool to harm others.
 * Use this project responsibly on your own devices only.
 * It is the end user's responsibility to obey all applicable local, state, federal, and international laws.
-* contact for any kind of help about ethical hacking +92 3475549695
+* contact for any kind of help about ethical hacking +92 3490916663
 
 
-# Developer
-
-<a href="https://github.com/Athexhacker/">
-
-</a>
 
 
-**ATHEX H4CK3R** - [@Athexhacker](https://github.com/Athexhacker/)
- 
+<div align="center">
+Made with 💀 by ATHEX BLACK HAT
 
-# Support Me
-If you like my work you can support me via :
+Copyright © 2025 Athexblackhat
 
-You Tube ; inziXploit444
+</div> ```
 
 
-Instagram ; itx_athex86
 
-Copyright © 2025 Athex Hacker (github.com/Athexhacker)
+
+
+
+
+
+
+
+
+
