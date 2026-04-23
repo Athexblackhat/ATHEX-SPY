@@ -12,7 +12,6 @@
 
 
 ![Python](https://img.shields.io/badge/PYTHON-v3.10%2B-brightgreen?style=for-the-badge&logo=python)
-![GitHub Release Date](https://img.shields.io/github/release-date/Athexhacker/ATHEX-SPY?color=orange&label=RELEASED&style=for-the-badge&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Athexhacker/ATHEX-SPY?color=yellow&label=UPDATED&style=for-the-badge&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Athexhacker/ATHEX-SPY?color=green&style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/Athexhacker/ATHEX-SPY?color=blue&style=for-the-badge&logo=github)
