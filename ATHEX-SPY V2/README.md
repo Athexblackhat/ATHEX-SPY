@@ -33,7 +33,7 @@ The goal of this project is to make penetration testing and vulnerability assess
 
 ## 📌 Overview
 
-**ATHEX-SPY v3.0 Advanced** is a comprehensive Android exploitation, penetration testing, and forensic toolkit with **70+ powerful features**. This tool automates everything from basic ADB operations to advanced post-exploitation techniques including:
+**ATHEX-SPY v2.0 Advanced** is a comprehensive Android exploitation, penetration testing, and forensic toolkit with **70+ powerful features**. This tool automates everything from basic ADB operations to advanced post-exploitation techniques including:
 
 - 🔓 One-click Meterpreter session generation
 - 🎯 Live keylogging via `getevent`
@@ -235,6 +235,55 @@ The goal is to provide security researchers and penetration testers with a compl
 * Record Device Audio
 * Stream Device Audio
 
+## V2.0 (Current)
+v2 Advanced (Current)
+*✅ 70 total features across 5 interactive pages*
+
+*✅ Live keylogger (getevent monitoring)*
+
+*✅ GPS location tracking*
+
+*✅ WiFi password extraction*
+
+*✅ Camera snap (front/back)*
+
+*✅ Chrome browsing history extraction*
+
+*✅ Full device backup (ADB backup)*
+
+*✅ Network capture with tcpdump*
+
+*✅ Live logcat streaming*
+
+*✅ Vulnerability scanning*
+
+*✅ Frida integration (setup, script injection, memory dump)*
+
+*✅ Reverse shell capability*
+
+*✅ Port forwarding*
+
+*✅ EDL reboot mode*
+
+*✅ PIN brute force simulation*
+
+*✅ Play Protect disable*
+
+*✅ System app uninstallation*
+
+*✅ Process management*
+
+*✅ Burp Suite certificate installation*
+
+*✅ Screen streaming via web*
+
+v1.6 (Previous)
+Initial release with core ADB features
+
+Metasploit integration
+
+Audio recording and streaming
+
 # Requirements  
 * [`python3`](https://www.python.org/) : Python 3.10 or Newer
 * [`pip`](https://pip.pypa.io/en/stable/installation/) : Package installer for Python
@@ -339,17 +388,16 @@ adb tcpip 5555
 
 
 ## 🎯 Tested Platforms
-Platform	Status
-✅ Kali Linux	Fully Supported
-✅ Ubuntu 22.04+	Fully Supported
-✅ Linux Mint	Fully Supported
-✅ Fedora	Fully Supported
-✅ Arch Linux	Fully Supported
-✅ Parrot OS	Fully Supported
-✅ Windows 11	Supported
-✅ Windows 10	Supported
-✅ Termux (Android)	Limited Support
-✅ macOS	Supported
+
+*✅ Kali Linux -	Fully Supported*
+*✅ Ubuntu 22.04+ -	Fully Supported*
+*✅ Linux Mint -	Fully Supported*
+*✅ Fedora -	Fully Supported*
+*✅ Arch Linux -	Fully Supported*
+*✅ Parrot OS	- Fully Supported*
+*✅ Windows 11	- Supported*
+*✅ Windows 10	- Supported*
+*✅ macOS	- Supported*
 [!NOTE]
 Linux is recommended for full feature compatibility. Some advanced features (audio streaming, Frida, tcpdump) work best on Linux.
 
@@ -359,14 +407,24 @@ bash
 # Install Frida on host
 pip install frida-tools
 
-# Download frida-server for your device architecture
-# from: https://github.com/frida/frida/releases
-# Rename to 'frida-server' and place in ATHEX-SPY directory
+## Download frida-server for your device architecture
+from:
+
+```
+https://github.com/frida/frida/releases
+
+Rename to 'frida-server' and place in ATHEX-SPY directory
+```
 tcpdump Network Capture
-bash
-# Download tcpdump binary for Android
-# from: https://github.com/extremecoders-re/tcpdump-android-builds/releases
-# Rename to 'tcpdump' and place in ATHEX-SPY directory
+
+
+## Download tcpdump binary for Android
+from: 
+```
+https://github.com/extremecoders-re/tcpdump-android-builds/releases
+
+Rename to 'tcpdump' and place in ATHEX-SPY directory
+```
 
 > [!NOTE]
 > All the new features are primarily tested on **Linux**, thus **Linux** is recommended for running ATHEX-SPY.
@@ -511,54 +569,7 @@ pkg install nmap
 * contact for any kind of help about ethical hacking +92 3490916663
 
 
-## 🔄 Changelog
-v2 Advanced (Current)
-*✅ 70 total features across 5 interactive pages*
 
-*✅ Live keylogger (getevent monitoring)*
-
-*✅ GPS location tracking*
-
-*✅ WiFi password extraction*
-
-*✅ Camera snap (front/back)*
-
-*✅ Chrome browsing history extraction*
-
-*✅ Full device backup (ADB backup)*
-
-*✅ Network capture with tcpdump*
-
-*✅ Live logcat streaming*
-
-*✅ Vulnerability scanning*
-
-*✅ Frida integration (setup, script injection, memory dump)*
-
-*✅ Reverse shell capability*
-
-*✅ Port forwarding*
-
-*✅ EDL reboot mode*
-
-*✅ PIN brute force simulation*
-
-*✅ Play Protect disable*
-
-*✅ System app uninstallation*
-
-*✅ Process management*
-
-*✅ Burp Suite certificate installation*
-
-*✅ Screen streaming via web*
-
-v1.6 (Previous)
-Initial release with core ADB features
-
-Metasploit integration
-
-Audio recording and streaming
 
 <div align="center">
 Made with 💀 by ATHEX BLACK HAT
@@ -566,6 +577,14 @@ Made with 💀 by ATHEX BLACK HAT
 Copyright © 2025 Athexblackhat
 
 </div> ```
+
+
+
+
+
+
+
+
 
 
 
