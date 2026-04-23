@@ -166,8 +166,8 @@ if [ ! -d "Downloaded-Files" ]; then
 fi
 
 # Make the main script executable
-if [ -f "ATHEX-SPY.py" ]; then
-    chmod +x ATHEX-SPY.py
+if [ -f "ATHEX-SPY-V2.py" ]; then
+    chmod +xATHEX-SPY-V2.py
 fi
 
 echo ""
@@ -176,7 +176,7 @@ echo -e "${GREEN}                    ✓ ATHEX-SPY installation completed succes
 echo -e "${GREEN}════════════════════════════════════════════════════════════════════════════════════════════════${NC}"
 echo ""
 echo -e "${CYAN}To start ATHEX-SPY, run:${NC}"
-echo -e "  ${GREEN}python3 ATHEX-SPY.py${NC}"
+echo -e "  ${GREEN}python3 ATHEX-SPY-V2.py${NC}"
 echo ""
 echo -e "${YELLOW}Note: Make sure USB debugging is enabled on your Android device${NC}"
 echo -e "${YELLOW}      and it's connected via USB or same network.${NC}"
@@ -187,7 +187,7 @@ read -p "Do you want to run ATHEX-SPY now? (y/n): " -n 1 -r
 echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo -e "\n${GREEN}[*] Starting ATHEX-SPY...${NC}\n"
-    python3 ATHEX-SPY.py
+    python3 ATHEX-SPY-V2.py
 else
-    echo -e "\n${GREEN}Installation complete! Run 'python3 ATHEX-SPY.py' when ready.${NC}"
+    echo -e "\n${GREEN}Installation complete! Run 'python3 ATHEX-SPY-V2.py' when ready.${NC}"
 fi
