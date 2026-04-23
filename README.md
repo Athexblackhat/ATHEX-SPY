@@ -22,7 +22,7 @@
 
 This tool can automatically __Create__, __Install__, and __Run__ payload on the target device using __Metasploit-Framework__ and __ADB__ to completely hack the Android Device in one click if the device has open ADB port `TCP 5555`.
 
-The goal of this project is to make penetration testing and vulnerability assessment on Android devices easy. Now you don't have to learn commands and arguments, PhoneSploit does it for you. Using this tool, you can test the security of your Android devices easily.
+The goal of this project is to make penetration testing and vulnerability assessment on Android devices easy. Now you don't have to learn commands and arguments, ATHEX SPY does it for you. Using this tool, you can test the security of your Android devices easily.
 
 > [!TIP]
 > __ATHEX-SPY__ can also be used as a complete ADB Toolkit to perform various operations on Android devices over Wi-Fi as well as USB. 
