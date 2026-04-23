@@ -1,6 +1,6 @@
 <a href="https://github.com/Athexhacker/ATHEX-SPY"><img src="logo.png" alt="0" border="0" /></a> 
 
-![Geo-Phone](https://img.shields.io/badge/version-v[1.6]-blue.svg)
+![Geo-Phone](https://img.shields.io/badge/version-v[2.0]-blue.svg)
 
 <div align="center">
   
