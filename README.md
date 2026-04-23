@@ -10,7 +10,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=SYSTEM+BREACH+INITIATED;HACK+ANDROID+DEVICES;METERPRETER+IN+ONE+CLICK;YOUR+PHONE+IS+NOW+MINE)](https://git.io/typing-svg)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Athexhacker/ATHEX-SPY?color=red&label=VERSION&style=for-the-badge)
+
 ![Python](https://img.shields.io/badge/PYTHON-v3.10%2B-brightgreen?style=for-the-badge&logo=python)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Athexhacker/ATHEX-SPY?color=orange&label=RELEASED&style=for-the-badge&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Athexhacker/ATHEX-SPY?color=yellow&label=UPDATED&style=for-the-badge&logo=github)
